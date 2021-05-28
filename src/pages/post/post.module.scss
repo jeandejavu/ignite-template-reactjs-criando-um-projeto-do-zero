@@ -1,1 +1,73 @@
-// TODO
+.banner {
+  width: 100%;
+}
+
+.contentHeader {
+  margin-top: 5rem;
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    /* identical to box height */
+
+    letter-spacing: -0.5px;
+
+    color: var(--heading);
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+
+
+    time {
+      display: flex;
+      align-items: center;
+      span {
+        margin: 0 0 0 0.5rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+        color: var(--info);
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-left: 1.5rem;
+      span {
+        margin: 0 0 0 0.5rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+        color: var(--info);
+      }
+    }
+  }
+}
+
+.content {
+  font-style: normal;
+  line-height: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    color: var(--heading);
+    margin: 4rem 0 4rem 0;
+    font-weight: bold;
+  }
+
+  div p {
+    font-size: 1.5rem;
+    color: var(--info);
+  }
+
+  margin-bottom: 5rem;
+
+}

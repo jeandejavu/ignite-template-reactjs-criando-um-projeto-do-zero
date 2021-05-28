@@ -1,1 +1,78 @@
-// TODO
+.logo {
+  margin: 4rem 0 4rem 0;
+}
+
+.posts {
+
+  a:link {
+    text-decoration:none;
+  }
+  article {
+    margin-top: 4rem;
+
+    strong {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.75rem;
+      line-height: 2.125rem;
+
+      text-align: justify;
+      letter-spacing: -0.5px;
+
+      color: var(--heading);
+    }
+
+    p {
+      margin: 0.5rem 0 1.5rem 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+
+      text-align: justify;
+      color: var(--body);
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+
+
+
+      time {
+        display: flex;
+        align-items: center;
+        span {
+          margin: 0 1.5rem 0 0.5rem;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 0.875rem;
+          line-height: 1.063rem;
+          color: var(--info);
+        }
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        span {
+          margin: 0 0 0 0.5rem;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 0.875rem;
+          line-height: 1.063rem;
+          color: var(--info);
+        }
+      }
+    }
+  }
+}
+
+.moreComments {
+  a {
+    text-decoration:none;
+    color: var(--highlight);
+  }
+
+  margin-top: 4rem;
+}
